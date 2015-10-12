@@ -1,0 +1,14 @@
+/system            ext4          /dev/block/bootdevice/by-name/system    flags=display="System"
+/data              ext4          /dev/block/bootdevice/by-name/userdata   flags=display="Data"
+/cache             ext4          /dev/block/bootdevice/by-name/cache     flags=display="Cache"
+/persist            ext4          /dev/block/bootdevice/by-name/persist   flags=display="Persist"
+/modemst1          emmc          /dev/block/bootdevice/by-name/modemst1  flags=display="modemst1";backup=1
+/modemst2          emmc          /dev/block/bootdevice/by-name/modemst2  flags=display="modemst2";backup=1
+/boot              emmc          /dev/block/bootdevice/by-name/boot      flags=display="Boot"
+/recovery          emmc          /dev/block/bootdevice/by-name/recovery  flags=display="Recovery"
+/misc              emmc          /dev/block/bootdevice/by-name/misc      flags=display="Misc"
+/firmware          vfat          /dev/block/bootdevice/by-name/modem     flags=display="Firmware"
+/sdcard        vfat       /dev/block/bootdevice/by-name/grow             flags=display="内置存储";fsflags=utf8;storage;wipeingui;removable
+/sdcard2       vfat       /dev/block/mmcblk1p1                        flags=display="外置存储";fsflags=utf8;storage;wipeingui;removable
+
+
