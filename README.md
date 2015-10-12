@@ -1,1 +1,1 @@
-# twrp_recovery_device_tree_for_ZTE_A880
+# twrp_device_tree_for_ZTE_A880
